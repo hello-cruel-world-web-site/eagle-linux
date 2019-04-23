@@ -1,1 +1,7 @@
-theme: minima
+theme: jekyll-theme-midnight
+
+title: Eagle Linux
+
+description: Uma distro linux leve e útil, para desenvolvedores.
+
+show_downloads: true
