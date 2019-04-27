@@ -1,5 +1,5 @@
 
-
+sudo apt install snapd
 
 sudo snap install code --classic
 sudo snap install zenity
@@ -36,12 +36,15 @@ sudo snap install audacity
 sudo snap install gimp
 sudo snap install inkscape
 
+sudo apt install flatpak
 
-sudo flatpack install https://flathub.org/repo/appstream/org.gnome.Glade.flatpakref
-sudo flatpack install https://flathub.org/repo/appstream/com.valvesoftware.Steam.flatpakref
-sudo flatpack install https://flathub.org/repo/appstream/com.github.marktext.marktext.flatpakref
-sudo flatpack install https://flathub.org/repo/appstream/org.filezillaproject.Filezilla.flatpakref
-sudo flatpack install https://flathub.org/repo/appstream/com.slack.Slack.flatpakref
+sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+sudo flatpak install flathub org.gnome.Glade
+sudo flatpak install flathub com.valvesoftware.Steam
+sudo flatpak install flathub com.github.marktext.marktext
+sudo flatpak install flathub org.filezillaproject.Filezilla
+sudo flatpak install flathub com.slack.Slack
 
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 081525E2B4F1283B
 sudo apt-add-repository ppa:cubic-wizard/release
