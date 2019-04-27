@@ -27,7 +27,8 @@ sudo snap install obs-studio
 
 sudo snap install docker
 sudo snap install postgresql10
-sudo snap install mysql
+sudo snap install mysql --edge
+sudo snap install mysql --beta
 
 sudo snap install spotify
 sudo snap install audacity
