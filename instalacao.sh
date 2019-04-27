@@ -41,11 +41,11 @@ sudo apt install flatpak
 
 sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
-sudo flatpak install flathub org.gnome.Glade
-sudo flatpak install flathub com.valvesoftware.Steam
-sudo flatpak install flathub com.github.marktext.marktext
-sudo flatpak install flathub org.filezillaproject.Filezilla
-sudo flatpak install flathub com.slack.Slack
+sudo flatpak install flathub org.gnome.Glade -y
+sudo flatpak install flathub com.valvesoftware.Steam -y
+sudo flatpak install flathub com.github.marktext.marktext -y
+sudo flatpak install flathub org.filezillaproject.Filezilla -y
+sudo flatpak install flathub com.slack.Slack -y
 
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 081525E2B4F1283B
 sudo apt-add-repository ppa:cubic-wizard/release
